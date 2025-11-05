@@ -1,11 +1,12 @@
 <?php
 const ROUTES = [
-    "accueil" => "acceuilController.php",
-    "produits" => "produitsController.php",
-    "commander" => "commanderController.php",
-    "contact" => "contactController.php",
-    "footer" => "footerController.php",
-    "header" => "headerController.php",
+    "accueil" => "AccueilController.php",
+    "produits" => "ProduitsController.php",
+    "produit" => "ProduitController.php",
+    "commander" => "CommanderController.php",
+    "contact" => "ContactController.php",
+    "footer" => "FooterController.php",
+    "header" => "HeaderController.php",
 ];
 
 const DEFAULT_ROUTE = ROUTES["accueil"];

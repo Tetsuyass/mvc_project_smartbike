@@ -1,5 +1,5 @@
 <?php
-require_once './config/routes.php';
+require_once '../config/routes.php';
 
 $routes_names = array_keys(ROUTES);
 
